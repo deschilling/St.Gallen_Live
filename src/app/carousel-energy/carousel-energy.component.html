@@ -1,0 +1,8 @@
+<div class="keen-slider__slide">
+	Aktuell werden mit den Solaranlagen der
+	St. Galler Stadtwerke rund <p class="dynamic">{{energyProduced}}</p> kWh Strom  produziert
+	<br>
+	<div *ngIf="energyProduced > 0" class="energy_text">
+		Damit kann man {{energyProduced * 130}} Scheiben Toast toasten
+	</div>
+</div>

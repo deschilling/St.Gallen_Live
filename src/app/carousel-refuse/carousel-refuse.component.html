@@ -1,0 +1,18 @@
+<div class="keen-slider__slide">
+	Abfallberg?
+	<div class="refuse_text" *ngIf="record != undefined">
+		Morgen, 14.November 2022
+		<p class="dynamic">{{record.fields.gebietsbezeichnung}}</p>
+		Gebiet: <p class="dynamic">{{record.fields.gebiets_id}}</p>
+		<p class="dynamic">{{record.fields.titel}}</p><br>
+	</div>
+	<div class="qr_code_text">Nie mehr vergessen:</div>
+	<div class="qr_code">
+	<img
+		width="300"
+		height="300"
+		alt=""
+		src="../assets/Kehricht.svg"
+		/>
+	</div>
+</div>

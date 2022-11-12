@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+.keen-slider__slide {
+	height: 95.8vh;
+	font-family: "Quicksand";
+	max-height: 100vh;
+	font-size:90px;
+	padding:50px;
+	text-shadow: 2px 2px black;
+}
+
+
+.qr_code_text{
+	font-size:35px;
+	position:absolute;
+	width:50vw;
+	bottom:50px;
+}
+.qr_code{
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+
+@font-face {
+	font-family: Sono;
+	src: url(assets/Sono/Sono-VariableFont_MONO,wght.ttf) format("opentype");
+  }
+
+  @font-face {
+	font-family: Quicksand;
+	src: url(assets/Quicksand/Quicksand-VariableFont_wght.ttf) format("opentype");
+  }
+
+p.dynamic{
+	color:red;
+}

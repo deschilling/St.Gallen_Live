@@ -1,0 +1,17 @@
+<div class="keen-slider__slide">
+	Weisst du es...?	
+	<div class="quiz_text">
+		Welche Bratwurst ist schwerer: OLMA- oder Kinderfest-Bratwurst?
+	</div>
+	<div *ngIf="answered == true" class="quiz_solution">
+		<ng-container *ngIf="answeredRight == true">Richtig.</ng-container>
+		<ng-container *ngIf="answeredRight == false">Falsch.</ng-container>
+
+		Die OLMA-Bratwurst wiegt 160g
+		Die Kinderfest-Bratwurst wiegt 220g
+	</div>
+	<div class="quiz_answers">
+		<button (click)="wrongAnswer()"class="btn btn-danger">OLMA-Bratwurst</button>
+		<button (click)="rightAnswer()"class="btn btn-danger">Kinderfest-Bratwurst</button>
+	</div>
+</div>
